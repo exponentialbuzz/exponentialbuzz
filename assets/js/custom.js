@@ -34,7 +34,7 @@
             // PAID SEARCH TEXT CHANGE
             $('#druga-slika').click(function(){
                 var paidSearchTitle = $('#why-ppc-paid-search-title').text();
-                var paidSearchText = $('#why-ppc-paid-search-text').text();
+                var paidSearchText = $('#why-ppc-paid-search-text').html();
 
                 $(whyTitle).html(paidSearchTitle);
                 $(whyText).html(paidSearchText);
@@ -43,7 +43,7 @@
             // DISPLAY TEXT CHANGE
             $('#prva-slika').click(function(){
                 var displayTitle = $('#why-ppc-display-title').text();
-                var displayText = $('#why-ppc-display-text').text();
+                var displayText = $('#why-ppc-display-text').html();
 
                 $(whyTitle).html(displayTitle);
                 $(whyText).html(displayText);
@@ -52,7 +52,7 @@
             // SOCIAL ADS TEXT CHANGE
             $('#treca-slika').click(function(){
                 var socialAdsTitle = $('#why-ppc-social-ads-title').text();
-                var socialAdsText = $('#why-ppc-social-ads-text').text();
+                var socialAdsText = $('#why-ppc-social-ads-text').html();
 
                 $(whyTitle).html(socialAdsTitle);
                 $(whyText).html(socialAdsText);
@@ -61,7 +61,7 @@
             // REMARKETING TEXT CHANGE
             $('#cetvrta-slika').click(function(){
                 var remarketingTitle = $('#why-ppc-remarketing-title').text();
-                var remarketingText = $('#why-ppc-remarketing-text').text();
+                var remarketingText = $('#why-ppc-remarketing-text').html();
 
                 $(whyTitle).html(remarketingTitle);
                 $(whyText).html(remarketingText);
