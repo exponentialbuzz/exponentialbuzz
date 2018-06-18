@@ -9,7 +9,7 @@ function my_enqueue_assets() {
 function my_scripts_method() {
     wp_enqueue_script(
         'custom-script',
-        get_stylesheet_directory_uri() . '/assets/js/custom.js',
+        get_stylesheet_directory_uri() . '/assets/js/custom.min.js',
         array( 'jquery' )
     );
 }
